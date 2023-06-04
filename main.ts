@@ -12,7 +12,7 @@ basic.forever(function () {
         music.playTone(349, music.beat(BeatFraction.Half))
     }
     if (pins.digitalReadPin(DigitalPin.P15) == 1) {
-        music.playTone(392, music.beat(BeatFraction.Whole))
+        music.playTone(392, music.beat(BeatFraction.Half))
     }
     if (pins.digitalReadPin(DigitalPin.P16) == 1) {
         music.playTone(440, music.beat(BeatFraction.Half))
